@@ -1,146 +1,137 @@
 # 🐄 Cattle Breed Classification and Body Condition Scoring System
 
-An AI-powered web application for automatic cattle breed identification and body condition assessment using Deep Learning and Computer Vision.
+An AI-powered web application for automatic cattle breed classification and Body Condition Score (BCS) prediction using Deep Learning and Computer Vision.
 
 ---
 
 ## 📌 Project Overview
 
-This project uses a trained MobileNetV2 deep learning model to classify cattle breeds from images and estimate their Body Condition Score (BCS). The system is deployed as an interactive Streamlit web application that provides real-time predictions and breed information.
+This system helps farmers, veterinarians, and livestock managers identify cattle breeds and evaluate body condition from images.
 
-The application is designed to assist farmers, veterinarians, dairy farm managers, and researchers in cattle monitoring and livestock management.
+The application uses a trained MobileNetV2 deep learning model integrated with a Streamlit web application for real-time prediction.
 
 ---
 
 ## ✨ Features
 
-* 🔐 User Authentication System
-* 🧬 Cattle Breed Classification
-* ⚖️ Body Condition Score Prediction
-* 📊 Statistics Dashboard
-* 📜 Analysis History Tracking
-* 📚 Breed Information Library
-* 🎨 Modern Streamlit User Interface
-* ⚡ Real-Time Image Analysis
+- User Authentication System
+- Cattle Breed Classification
+- Body Condition Scoring (BCS)
+- Breed Information Library
+- Prediction History Tracking
+- Statistical Analysis Dashboard
+- Interactive Streamlit Interface
 
 ---
 
-## 🏗️ System Architecture
+## 🛠 Technology Stack
 
-Input Cattle Image
-↓
-Image Preprocessing
-↓
-MobileNetV2 Deep Learning Model
-↓
-Breed Prediction
-↓
-Body Condition Analysis
-↓
-Result Visualization
+### Frontend
+- Streamlit
 
----
-
-## 🛠️ Technology Stack
-
-### Programming Language
-
-* Python
+### Backend
+- Python
 
 ### Deep Learning
-
-* TensorFlow
-* Keras
-* MobileNetV2
-
-### Computer Vision
-
-* OpenCV
-
-### Web Framework
-
-* Streamlit
+- TensorFlow
+- Keras
+- MobileNetV2
 
 ### Data Processing
-
-* NumPy
-* JSON
+- NumPy
+- PIL
+- JSON
 
 ---
 
 ## 📂 Project Structure
 
-Cattle-App/
-
-├── app.py
-
-├── breed_model.keras
-
-├── labels.json
-
-├── users.json
-
-├── requirements.txt
-
-└── README.md
+```text
+app.py                 Main Streamlit Application
+breed_model.keras      Trained Deep Learning Model
+labels.json            Breed Labels
+users.json             User Database
+requirements.txt       Project Dependencies
+```
 
 ---
 
 ## 🚀 Installation
 
-Clone the repository:
+### Clone Repository
 
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+```bash
+git clone YOUR_GITHUB_LINK
+cd Cattle-Breed-Classification-and-BCS
+```
 
-Install dependencies:
+### Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-Run the application:
+### Run Application
 
+```bash
 streamlit run app.py
+```
 
 ---
 
-## 🤖 Model Information
+## 📸 Application Screenshots
+
+### Login Page
+
+![Login](Login_Page.png)
+
+### Dashboard
+
+![Dashboard](Dashboard.png)
+
+### Upload Image
+
+![Upload](Upload_Image.png)
+
+### Prediction Result
+
+![Result](Results_Prediction.png)
+
+### Breed Library
+
+![Library](Breed_Library.png)
+
+### Statistics Dashboard
+
+![Statistics](Statistics.png)
+
+### Prediction History
+
+![History](Analyze_History.png)
+
+---
+
+## 🎯 Model Information
 
 Model Architecture: MobileNetV2
 
-Input Size: 224 × 224 × 3
+Framework: TensorFlow / Keras
 
-Framework: TensorFlow/Keras
+Input: Cattle Image
 
-Training Platform: Google Colab
-
-Task 1: Cattle Breed Classification
-
-Task 2: Body Condition Scoring
+Output:
+- Breed Classification
+- Body Condition Score Prediction
 
 ---
 
-## 📊 Supported Breeds
+## 📈 Future Enhancements
 
-* Gir
-* Sahiwal
-* Rathi
-* Tharparkar
-* Kankrej
-* Ongole
-* Hariana
-* Deoni
-* Nimari
-* Holstein
-
----
-
-## 🎯 Future Enhancements
-
-* Mobile Application Integration
-* Cloud Deployment
-* Real-Time Camera Prediction
-* Health Monitoring Module
-* Multi-Animal Detection
-* Breed Recommendation System
+- Real-time Camera Detection
+- Mobile Application Integration
+- Cloud Deployment
+- Multi-Animal Detection
+- Advanced Health Analytics
 
 ---
 
@@ -148,10 +139,6 @@ Task 2: Body Condition Scoring
 
 Jaskirat Kour
 
-Bachelor of Technology (Artificial Intelligence & Machine Learning)
+Mini Project
 
-Mini Project – Cattle Breed Classification and Body Condition Scoring System
-
----
-
-⭐ If you found this project useful, consider giving it a star.
+Department of Computer Science & Engineering
